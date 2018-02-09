@@ -1,5 +1,3 @@
-
-    
 def welcome_menu
     puts "Welcome to the Magic Eight Ball!"
     puts "To exit at any time type 'exit'"
