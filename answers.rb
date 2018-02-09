@@ -1,5 +1,5 @@
-require_relative 'main' 'Gemfile'
-class answers
+
+class Answers
     attr_reader :all
     def initialize
     
