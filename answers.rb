@@ -1,4 +1,3 @@
-
 class Answers
     attr_reader :all
     def initialize
