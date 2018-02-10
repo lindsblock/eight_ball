@@ -13,14 +13,25 @@ class Main
         exit
     end
 
+    # def user_add
+    #     puts "Please enter your suggestion"
+    #     @sugg = gets.strip
+    #     # puts "Is this a good, bad or neutral suggestion?"
+    #     # col = gets.strip.downcase
+    #     arr.new{name: } = @sugg
+    # end
+
     def welcome 
         puts "Welcome to the Magic Eight Ball!"
         puts "To exit at any time type 'exit'"
+        puts "Press E if you want to suggest an answer for the 8 ball"
         puts "Ask me a question!"
         question = gets.strip.downcase
         answer = @answers.all.sample
         if question == "exit"
             e_menu
+        # if question == "e"
+        #     user_add
         elsif answer[:color] === "red"
             puts "#{answer[:response]}".colorize(:red)
         elsif answer[:color] === "green"

@@ -1,5 +1,5 @@
 class Answers
-    attr_reader :all
+    attr_accessor :all
     def initialize
     
     @all = [{response: 'It is certain', color: 'green'}, {response: 'It is decidedly so', color: 'green'}, {response: 'Without a doubt', color: 'green'}, {response: 'Yes definatly', color: 'green'}, 
